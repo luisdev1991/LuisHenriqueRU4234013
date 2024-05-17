@@ -1,0 +1,124 @@
+body { /* colorindo minha pagina e escolhendo uma fonte*/
+    
+    background-color: #010019;          
+    color: #ecf0ecf6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {/* Customiznado meu titulo*/
+    margin-top: 50;
+    padding: auto;
+    color: #34e251;
+    font-size: 40px;
+    color: #34e251;
+    text-align: center;
+    border: solid #ecf0ecf6;
+}
+
+h3 {/* Customiznado subtitulo 3*/
+    margin: 70px;
+    border:solid #ecf0ecf6;
+    padding: auto;
+    font-size: 32px;
+    color: #34e251;
+    text-align: center;
+
+}
+
+
+h2 { /* Customiznado meusubtitulo 2*/
+    margin: 70px;
+    padding: auto;
+    color: #ecf0ecf6;
+    font-size: 20px;
+    text-align: center;
+
+}
+ul { /* Customiznado minha lista e adcionando no centro ocm uma borda */
+    margin-top: 100px;
+    margin-bottom: 100PX;
+    padding-right: 50px;
+    text-align: center;
+    margin-right: 100px;
+    color: #34e251;
+  
+    display: inline-block;
+    width: auto;
+    border: solid #ecf0ecf6;         
+    list-style-type: none;
+} 
+ul:hover{ /* alterando a cor da lista quando o mouse passa em cima*/
+
+    background-color: #ecf0ecf6; /*cor escolhida quando o mouse passa*/
+}
+p { /*alinhando meu paragrago no centro*/
+    padding: auto;
+    text-align: center;
+}
+
+a {
+    color: #34e251;
+    text-decoration: none;
+}
+
+img { /* ajustando minha imagnem no centro e com borda arredonda */
+    margin-top: auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border: solid 5px #34e251;
+    border-radius: 50%;
+}
+.center { /*ajustando o conteudo dos links no centro*/
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    flex-direction: row;    
+}
+form {/*criando formulaário*/
+    margin: 100px auto;
+}
+
+th, td { /*customizando fomulario*/
+    margin-left: auto;
+    color: #34e251;
+    padding: 10px;
+    text-align: left;
+}
+
+input[type="text"], textarea {/*customizando a caixa  de entrada do fomrulario e a area de texto*/
+    text-align: left;
+    margin-left: 10px;
+    width: 50%;
+    padding: 8px;
+    border: 2px solid #34e251;
+    border-radius: 4px;#34e251
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px; /* ajuste da altura */
+}
+
+button { /*customizando o boão*/
+    
+    padding: 10px 20px;
+    background-color: #34e251;
+    color: #ecf0ecf6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;/*altera o icone do mouse para uma mão*/
+    float: right;  /* Coloca o botão à direita */
+    margin-top: 400px;
+    margin-right: 100px;
+   
+}   
+
+
+button:hover {/*alterando a cor quando o mouse passa por cima*/
+    background-color: #ecf0ecf6}
+
+    .botaobaixo{ /* posição do botão    */
+        margin-right: 700px;
+
+    }
