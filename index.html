@@ -1,109 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Portfólio pessoal </title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfólio pessoal </title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <div class="center"> <!--usando uma div para centralizar os links -->
-            <h1>  Portfólio Pessoal (CV online)</h1> <!--titulo da pagina-->
-            <br> <!--quebra de linha-->
-            <ul> <!-- criando lista -->
-                <a href="#sobremim">Sobre mim</a> <!--a href para linkar o conteudo com o link -->
-            </ul>
-            <ul>
-                <a href="#cursos">Cursos</a>
-            </ul>
-            <ul>
-                <a href="#portifolio">Portifólio</a>
-            </ul>
-            <ul>
-                <a href="#contato">Contato</a>
-            </ul>
-        </div>
-    </header>
+        <header>
+            <div class="center"> <!--usando uma div para centralizar os links -->
+                <h1>  Portfólio Pessoal (CV online)</h1> <!--titulo da pagina-->
+                <br> <!--quebra de linha-->
+                <ul> <!-- criando lista -->
+                    <a href="#sobremim">Sobre mim</a> <!--a href para linkar o conteudo com o link -->
+                </ul>
+                <ul>
+                    <a href="#cursos">Cursos</a>
+                </ul>
+                <ul>
+                    <a href="#portifolio">Portifólio</a>
+                </ul>
+                <ul>
+                    <a href="#contato">Contato</a>
+                </ul>
+            </div>
+        </header>
 
-    <main>
+        <main>
 
-        <h3>Sobre mim</h3> <!-- h3 para fazer subtiltulos dos conteudos -->
-        <div class="center"> <!--usando uma class para centralizar -->
-            <img src="img/LuisHenrique.jpg"></img> <!-- src está linkando uma imagem de uma pasta externa-->
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>    
-            <p id="sobremim">
-                <!--id é o destino do links herf com conteudo, a tag p é paragrafo com conteudo os subtitulos h3-->
-                Sou Luis Henrique, estudante de Análise e Desenvolvimento de Sistema na Uninter.
-                Apaixonado por Desenvolvimento WEB, tenho desenvolvido habilidades em Ferramentas de Desenvolvimento WEB.
-                Busco constantemente ampliar meu conhecimento através de projetos práticos e experiências de estágio, focando em Desenvolvimentol WEB.
-                Sou proativo, dedicado e tenho facilidade para trabalhar em equipe, sempre buscando colaborar para alcançar os melhores resultados. 
-                No meu tempo livre, gosto de pedalar, ouvir musica e sair com a galera.
+            <h3>Sobre mim</h3> <!-- h3 para fazer subtiltulos dos conteudos -->
+            <div class="center"> <!--usando uma class para centralizar -->
+                <img src="img/LuisHenrique.jpg"></img> <!-- src está linkando uma imagem de uma pasta externa-->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>    
+                <p id="sobremim">
+                    <!--id é o destino do links herf com conteudo, a tag p é paragrafo com conteudo os subtitulos h3-->
+                    Sou Luis Henrique, estudante de Análise e Desenvolvimento de Sistema na Uninter.<br>
+
+                    Apaixonado por Desenvolvimento WEB, tenho desenvolvido habilidades em Ferramentas de Desenvolvimento WEB.<br>
+                    Busco constantemente ampliar meu conhecimento através de projetos práticos e experiências de estágio, focando em Desenvolvimentol WEB.<br>  
+                    Sou proativo, dedicado e tenho facilidade para trabalhar em equipe, sempre buscando colaborar para alcançar os melhores resultados. <BR>
+                    No meu tempo livre, gosto de pedalar, ouvir musica e sair com a galera.
+                </p>
+
+                <h3>Formação</h3>
+                <p id="formacao">
+
+                    <li>
+                        Análise e desenvolvimento de Sistema pela Uninter (cursando)
+                    </li>
+                    <li>
+                        Curso de informatica pela Microlins e Proginfor
+                    </li>
+                    <li>
+                        Redes de Computadores pela Microlins e Proginfor
+                        </ol>
+                        <h3> Portifólio</h3>
+                        <p id="portifolio">
+                        <h2>
+                            EM DESENVOLVIMENTO
+                        </h2>
+
+
+                </p>
+                <h3>Contato</h3>
+                <p id="contato">
+
+                <form> <!--Criando um formulário-->
+                    <table>
+                        <tr><!--organiza uma celula de uma tabela na horizontal-->
+                            <th>
+                                <label for="nome">Nome:</label>
+                            </th>
+                            <td><input type="text" name="nome" id="nome"></td><!--cria uma caixa de entrada-->
+                        </tr>
+                        <th><label for="email">Email:</label></th>
+                        <td><input type="text" name="email" id="Email"></td>
+                            </tr>
+                            <tr>
+                                <th><label for="msg">Digite sua Mensagem:</label></th>
+                                <td><textarea name="msg" rows="1000" cols="5000">Digite sua Mensagem</textarea></td> <!--cria uma caixa de texto-->
+                            </tr>
+                            <tr>
+                                <div class="botaobaixo"></div>
+                                <td></td>
+                                <td></td> <button>Enviar Contato</button><!--cria um botão-->
+                            </div>
+                            </tr>
+
+                    </table>
+
+                </form>
+            </div>
             </p>
-
-            <h3>Formação</h3>
-            <p id="formacao">
-
-                <li>
-                    Análise e desenvolvimento de Sistema pela Uninter (cursando)
-                </li>
-                <li>
-                    Curso de informatica pela Microlins e Proginfor
-                </li>
-                <li>
-                    Redes de Computadores pela Microlins e Proginfor
-                    </ol>
-                    <h3> Portifólio</h3>
-                    <p id="portifolio">
-                    <h2>
-                        EM DESENVOLVIMENTO
-                    </h2>
-
-
-            </p>
-            <h3>Contato</h3>
-            <p id="contato">
-
-            <form> <!--Criando um formulário-->
-                <table>
-                    <tr><!--organiza uma celula de uma tabela na horizontal-->
-                        <th>
-                            <label for="nome">Nome:</label>
-                        </th>
-                        <td><input type="text" name="nome" id="nome"></td><!--cria uma caixa de entrada-->
-                    </tr>
-                    <th><label for="email">Email:</label></th>
-                    <td><input type="text" name="email" id="Email"></td>
-                        </tr>
-                        <tr>
-                            <th><label for="msg">Digite sua Mensagem:</label></th>
-                            <td><textarea name="msg" rows="1000" cols="5000">Digite sua Mensagem</textarea></td> <!--cria uma caixa de texto-->
-                        </tr>
-                        <tr>
-                            <div class="botaobaixo"></div>
-                            <td></td>
-                            <td></td> <button>Enviar Contato</button><!--cria um botão-->
-                        </div>
-                        </tr>
-
-                </table>
-
-            </form>
-        </div>
-        </p>
-        </div>
+            </div>
 
 
 
-    </main>
-</body>
+        </main>
+    </body>
 
-</html>
+    </html>
